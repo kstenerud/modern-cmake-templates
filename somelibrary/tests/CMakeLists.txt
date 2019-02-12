@@ -10,6 +10,9 @@
 # Setup #
 #########
 
+# Give access to the internal header files
+include_directories(${PROJECT_SOURCE_DIR}/src)
+
 add_subdirectory("${PROJECT_SOURCE_DIR}/extern/googletest" "extern/googletest")
 
 # Keep the CACHE cleaner
